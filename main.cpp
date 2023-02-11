@@ -4,7 +4,7 @@
 #include <list>
 using namespace std;
 int main() {
-  srand(10);
+  srand(time(NULL));
   list <int> listik(10,1);
   list<int>::iterator it;
   for (it=listik.begin();it!=listik.end();++it){
