@@ -9,6 +9,7 @@ int main() {
   list<int>::iterator it;
   for (it=listik.begin();it!=listik.end();++it){
       *it=rand()%10;}
+  listik.sort();
   for (it=listik.begin();it!=listik.end();++it){
       cout<<*it<<' ';}
   return 0;
